@@ -26,4 +26,4 @@ excellently).
 
 **TC-O(N)**: Same TC as that of DFS of tree.
 
-**SC-O(N)**: Same TC as that of DFS of tree.
+**SC-O(N)**: Same SC as that of DFS of tree.
