@@ -2,7 +2,7 @@
 
 Problem Description: [99. Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
-## Solution I:
+## Solution I
 
 Do normal inorder traversal of the tree, so that the nodes are visited in increasing order. The
 nodes that are swapped will violate the increasing order. To check for violation the previous node
