@@ -40,7 +40,7 @@ When k == 2, we will call twoSum, terminating the recursion.
 
 3. For twoSum function:
     * Set the low pointer lo to start, and high pointer hi to the last index.
-    * While low pointer is smaller than high:
+    * While low pointer is smaller than high: (The order of the following steps is important!)
         * If the sum of nums[lo] and nums[hi] is less than target, increment lo.
         * Increment lo if the value is the same as for lo - 1 and lo is not start. This is done to
           remove duplication.
