@@ -1,4 +1,4 @@
-package algo._015_buy_and_sell_stock_2;
+package algo._025_buy_and_sell_stock_2;
 
 public class BuyAndSellStock2 {
 
