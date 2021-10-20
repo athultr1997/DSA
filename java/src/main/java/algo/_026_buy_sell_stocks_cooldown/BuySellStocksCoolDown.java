@@ -1,4 +1,4 @@
-package algo._014_buy_sell_stocks_cooldown;
+package algo._026_buy_sell_stocks_cooldown;
 
 public class BuySellStocksCoolDown {
 
