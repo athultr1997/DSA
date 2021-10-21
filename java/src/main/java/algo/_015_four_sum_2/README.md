@@ -19,6 +19,10 @@ Algorithm:
 * If it is present, increment the result by its count.
 * Return the result.
 
+Questions:
+1. Why not use 3Sum approch?
+A) Time Complexity will be O(N^3)
+
 **TC-O(N^2)**: Due to the two double loops.
 
 **SC-O(N^2)**: Due the number of distinct possibilities of sums of elements of nums1 and nums2.
