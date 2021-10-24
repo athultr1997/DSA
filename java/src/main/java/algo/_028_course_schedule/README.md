@@ -16,7 +16,7 @@ finished.
 
 **TC-O(V + E)**
 
-**SC-O(V)**
+**SC-O(V + E)**
 
 ## Solution II: Topological Sort using Kahn's Algorithm
 
@@ -25,7 +25,7 @@ return false. Else return true. This is more of a BFS solution.
 
 **TC-O(V + E)**
 
-**SC-O(V)**
+**SC-O(V + E)**
 
 ### References:
 
