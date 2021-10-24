@@ -25,7 +25,7 @@ recursion. The maximum amount for each node is stored in a hash set after comput
 
 **SC - O(N)**: The recursion stack will have max height of the tree in worse case which is N.
 
-## Solution I: Using DP with Tabular Approach
+## Solution II: Using DP with Tabular Approach
 
 For every node we need to store the maximum amount that could be stolen without including it and by
 including it.
