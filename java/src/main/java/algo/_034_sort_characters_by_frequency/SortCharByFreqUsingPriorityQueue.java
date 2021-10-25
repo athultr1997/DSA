@@ -1,4 +1,4 @@
-package algo._027_sort_characters_by_frequency;
+package algo._034_sort_characters_by_frequency;
 
 import java.util.Comparator;
 import java.util.HashMap;
