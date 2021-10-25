@@ -65,7 +65,7 @@ without memoization will be O(2^N) and memoization will surely limit it to O(Nd)
 
 ## Solution III: Iterative Approach
 
-It is always better to replace a course that has been taken with a course having longer duration.
+It is always better to replace a course that has been taken with a course having shorter duration.
 This will give more time for the remaining courses to fit in. By replacing the jth course, with the
 ith course of a relatively smaller duration, we can increase the time available for upcoming courses
 to be taken. An extra duration_j - duration_i time can be made available by doing so. If such a
