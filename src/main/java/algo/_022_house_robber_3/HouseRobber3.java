@@ -1,6 +1,6 @@
 package algo._022_house_robber_3;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,7 +13,7 @@ public class HouseRobber3 {
     return robHelper(root, memo);
   }
 
-  private int robHelper(TreeNode root, Map<TreeNode, Integer> memo) {
+  private int robHelper(TreeNode<Integer> root, Map<TreeNode, Integer> memo) {
     Integer m = memo.get(root);
     if (m != null) {
       return m;
@@ -37,12 +37,12 @@ public class HouseRobber3 {
 
   // Solution II: DP + Tabular + DFS
 
-  public int robDp(TreeNode root) {
+  public int robDp(TreeNode<Integer> root) {
     int[] result = dfs(root);
     return Math.max(result[0], result[1]);
   }
 
-  private int[] dfs(TreeNode root) {
+  private int[] dfs(TreeNode<Integer> root) {
     if (root == null) {
       return new int[2];
     }

@@ -1,6 +1,6 @@
 package algo._027_count_complete_tree_nodes;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 
 public class Solution1 {
 

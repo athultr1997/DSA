@@ -1,16 +1,16 @@
 package algo._017_path_sum_1;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 
 public class PathSum1 {
 
   // Solution I: Using DFS
 
-  public boolean hasPathSumAddition(TreeNode root, int targetSum) {
+  public boolean hasPathSumAddition(TreeNode<Integer> root, int targetSum) {
     return hasPathSumHelper(root, targetSum, 0);
   }
 
-  private boolean hasPathSumHelper(TreeNode root, int targetSum, int currentSum) {
+  private boolean hasPathSumHelper(TreeNode<Integer> root, int targetSum, int currentSum) {
     if (root == null) {
       return false;
     }
@@ -22,7 +22,7 @@ public class PathSum1 {
         targetSum, currentSum);
   }
 
-  public boolean hasPathSumSubtraction(TreeNode root, int targetSum) {
+  public boolean hasPathSumSubtraction(TreeNode<Integer> root, int targetSum) {
     if (root == null) {
       return false;
     }
