@@ -1,19 +1,19 @@
 package algo._018_path_sum_2;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 import java.util.LinkedList;
 import java.util.List;
 
 public class PathSum2 {
 
-  public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
+  public List<List<Integer>> pathSum(TreeNode<Integer> root, int targetSum) {
     List<List<Integer>> result = new LinkedList<>();
     List<Integer> currentPath = new LinkedList<>();
     pathSumHelper(root, targetSum, currentPath, result);
     return result;
   }
 
-  private void pathSumHelper(TreeNode root, int targetSum, List<Integer> currentPath,
+  private void pathSumHelper(TreeNode<Integer> root, int targetSum, List<Integer> currentPath,
       List<List<Integer>> result) {
     if (root == null) {
       return;

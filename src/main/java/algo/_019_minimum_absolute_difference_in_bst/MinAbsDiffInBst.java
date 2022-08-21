@@ -1,20 +1,20 @@
 package algo._019_minimum_absolute_difference_in_bst;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 
 public class MinAbsDiffInBst {
 
   int result;
-  TreeNode prv;
+  TreeNode<Integer> prv;
 
-  public int getMinimumDifference(TreeNode root) {
+  public int getMinimumDifference(TreeNode<Integer> root) {
     prv = null;
     result = Integer.MAX_VALUE;
     inorder(root);
     return result;
   }
 
-  private void inorder(TreeNode root) {
+  private void inorder(TreeNode<Integer> root) {
     if (root == null) {
       return;
     }

@@ -1,15 +1,15 @@
 package algo._020_recover_bst;
 
-import algo.utils.TreeNode;
+import utils.TreeNode;
 import java.util.ArrayDeque;
 
 public class RecoverBst {
 
-  public void recoverTree(TreeNode root) {
+  public void recoverTree(TreeNode<Integer> root) {
     ArrayDeque<TreeNode> stack = new ArrayDeque<>();
-    TreeNode prv = new TreeNode(Integer.MIN_VALUE);
-    TreeNode firstElement = null;
-    TreeNode secondElement = null;
+    TreeNode<Integer> prv = new TreeNode(Integer.MIN_VALUE);
+    TreeNode<Integer> firstElement = null;
+    TreeNode<Integer> secondElement = null;
     while (root != null || !stack.isEmpty()) {
       while (root != null) {
         stack.addLast(root);
