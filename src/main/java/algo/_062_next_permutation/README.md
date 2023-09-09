@@ -1,4 +1,4 @@
-[# Next Permutation
+# Next Permutation
 
 Problem
 Description: [Next Permutation](https://leetcode.com/problems/next-permutation/)
@@ -27,6 +27,7 @@ Description: [Next Permutation](https://leetcode.com/problems/next-permutation/)
 4. After swapping `s[i]` and `s[j]`, the sequence '[s[i+1], s[n - 1]]' is not the smallest. Thus, we
    need to reverse '[s[i+1], s[n - 1]]' to create the smallest sequence since '[s[i+1], s[n - 1]]'
    is in descending order from right.
+5. This even works if there are duplicate elements in the array.
 
 ### Complexity Analysis
 
