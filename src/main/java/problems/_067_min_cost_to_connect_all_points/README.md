@@ -1,4 +1,4 @@
-~~# Min Cost to Connect All Points
+# Min Cost to Connect All Points
 
 Problem
 Description: [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points)
