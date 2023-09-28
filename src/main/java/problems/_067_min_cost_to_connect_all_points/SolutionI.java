@@ -1,4 +1,4 @@
-package algo._067_min_cost_to_connect_all_points;
+package problems._067_min_cost_to_connect_all_points;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
