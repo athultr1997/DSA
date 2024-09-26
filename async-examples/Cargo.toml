@@ -1,10 +1,8 @@
-[workspace]
-members = ["async-examples"]
-
 [package]
-name = "dsar"
+name = "async-examples"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+futures = "0.3"
 
